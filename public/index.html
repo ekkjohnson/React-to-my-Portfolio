@@ -24,20 +24,64 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Portfolio/title>
+    <title>Elizabeth Kissner Johnson Portfolio</title>
   </head>
+  
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <!-- //creat nav bar -->
+      <div id="navbar">
+          <a class="active" href="#aboutme">About Me</a>
+          <a href="#work">Work</a>
+          <a href="#contactme">Contact Me</a>
+          <a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:7702f513-af53-4bc2-8188-a3cd4ede8924">Resume</a>
+      </div>
+      <!-- //create about me section and attach Photo -->
+      <h1>Elizabeth Kissner Johnson</h1>
+      <img src="./assets/Profile Photo.JPG" alt="Elizabeth Kissner Johnson" style="width:300px;height:350px;"
+          class="center">
+      <section class="aboutme" id="aboutme">
+          <h2>About Me</h2>
+          <p>I have a B.S. in Biology from Univsersity of Wisconsin-Eau Claire. I am in a Coding and Programming Bootcamp
+              at the University of Minnesota with an expected graduation date of June 2022.</p>
+  
+      </section>
+      <!-- //create a work section -->
+      <section id="work">
+          <h2 id='workH2'>Work</h2>
+  
+  
+          <div class="photos">
+              <div class="container">
+                  <h3 class="centered">Project One</h3>
+                  <a href="https://banger484.github.io/cocktail-menu/"><img src="./assets/Project1.png" alt="Project1"
+                          style="width:300px;height:300px;">
+  
+                  </a>
+              </div>
+              <div class="container">
+                  <h3 class="centered">Code-Refractor</h3>
+                  <a href="https://ekkjohnson.github.io/Code-Refractor/"><img src="./assets/codeRefractor.png"
+                          alt="Code-Refractor" style="width:300px;height:300px;"></a>
+              </div>
+              <div class="container">
+                  <h3 class="centered">Day-Planner</h3>
+                  <a href="https://ekkjohnson.github.io/day-planner/"><img src="./assets/dayPlanner.png" alt="About-Me"
+                          style="width:300px;height:300px;"></a>
+              </div>
+          </div>
+      </section>
+      <!-- //contact me section with links -->
+      <footer id="contactme">
+          <h2>Contact Me</h2>
+          <div class="bottomnlink">
+              <a class="active" href="715.579.8867">715.579.8867</a>
+              <a href="ekkjohnson@gmail.com">ekkjohnson@gmail.com</a>
+              <a href="https://github.com/ekkjohnson">Git Hub</a>
+              <a href="https://www.linkedin.com/in/elizabeth-kissner-johnson-0830751b0/">LinkedIn</a>
+          </div>
+      </footer>
+      </div>
+      <script src="/index.js"></script>
+      </div>
   </body>
 </html>
