@@ -1,14 +1,14 @@
 import "./app.css";
-import navTabs from "./components/navTabs";
-import about from "./components/pages/about";
-import footer from "./components/footer";
+import NavTabs from "./components/NavTabs";
+import About from "./components/pages/About";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <div className="App">
-      <navTabs/>
-      <about/>
-      <footer/>
+      <NavTabs/>
+      <About/>
+      <Footer/>
     </div>
   );
 }
