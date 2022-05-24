@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import  Container from "react-bootstrap/Container";
-import codeRefractor from '../../../public/Projectimages/codeRefractor.png';
-import dayPlanner from '../../../public/Projectimages/dayPlanner.png';
-import cocktailMenu from '../../../public/Projectimages/Project1.png';
+import codeRefractor from '../../Projectimages/codeRefractor.png';
+import dayPlanner from '../../Projectimages/dayPlanner.png';
+import cocktailMenu from '../../Projectimages/Project1.png';
 
 export default function Work() {
 
