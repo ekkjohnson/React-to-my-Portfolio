@@ -16,7 +16,7 @@ return (
         <Carousel.Item>
           <img
           className="d-block w-100"
-          src={dailyPlanner}
+          src={dayPlanner}
           alt="Daily Planner Application"
           />
         <Carousel.Caption style={{background: '#aec3b0'}}>
@@ -24,6 +24,8 @@ return (
           <p>Allows the user to organize their day by entering in tasks that need to be completed at a certain time. background colors indicate hours that have passed, the current hour, and approaching hours. Click <a href="https://nicoled1999.github.io/daily-planner/" id="here">here</a> to visit my website. Click <a href="https://github.com/NicoleD1999/daily-planner" id="here">here</a> to visit the github repo.</p>
         </Carousel.Caption>
       </Carousel.Item>
+      </Carousel>
+      </Container>
       </div>
 );
 }

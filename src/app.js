@@ -1,14 +1,14 @@
-import "./App.css";
-import Header from "./components/Header";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
+import "./app.css";
+import navTabs from "./components/navTabs";
+import about from "./components/pages/about";
+import footer from "./components/footer";
 
 export default function App() {
   return (
     <div className="App">
-      <Header />
-      <Content />
-      <Footer />
+      <navTabs/>
+      <about/>
+      <footer/>
     </div>
   );
 }
