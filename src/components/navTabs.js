@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 function NavTabs({ handlePageChange}) {
   return (
-    <Navbar style={{background: '#6b9080'}}>
+    <Navbar style={{background: '#76949F'}}>
     <Container>
    
     <Nav className="me-auto" style={{fontWeight: 'bold'}}>
