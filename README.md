@@ -1,5 +1,6 @@
 # React-to-my-Portfolio
 My portfolio
+https://ekkjohnson.github.io/React-to-my-Portfolio/
 
 ![Screen Shot 2022-05-24 at 7 49 18 PM](https://user-images.githubusercontent.com/97856843/170289426-dad7d5e5-c3c1-47d7-a735-583b49a28baf.png)
 
