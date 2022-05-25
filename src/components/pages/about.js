@@ -1,26 +1,28 @@
 import React from 'react';
+import Resume from './Resume'
 import portfolioImage from '../../Projectimages/Profile Photo.JPG'
 import Button from 'react-bootstrap/Button';
+import '../../styles.css'
 
-// const styles = {
-//     image: {
-//         width: 400,
-//         height: 400,
-//         borderRadius: 200,
-//         position: 'relative',
-//         top: 5,
-//         marginRight: 20,
-//         float: 'right',
-//     },
-//     paragraph: {
-//         marginRight: 500,
-//         marginLeft: 40,
-//         fontSize: 25,
-//     },
-//     head: {
-//         marginLeft: 20,
-//     },
-// }
+const styles = {
+    image: {
+        width: 400,
+        height: 400,
+        borderRadius: 200,
+        position: 'relative',
+        top: 5,
+        marginRight: 20,
+        float: 'right',
+    },
+    paragraph: {
+        marginRight: 500,
+        marginLeft: 40,
+        fontSize: 25,
+    },
+    head: {
+        marginLeft: 20,
+    },
+}
 
 
 export default function About() {
