@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-// import Logo from '../assets/logo_transparent_background.png'
+import Logo from '../assets/logo_transparent_background.png'
 
 
 
@@ -10,12 +10,12 @@ function NavTabs({ handlePageChange}) {
   return (
     <Navbar style={{background: '#6b9080'}}>
     <Container>
-    <Navbar.Brand><img style={{width:180, heigth:80, marginLeft: -110}}/></Navbar.Brand>
+    <Navbar.Brand href="#home"><img src={Logo} style={{width:180, heigth:80}} alt="Logo"/></Navbar.Brand>
     <Nav className="me-auto" style={{fontWeight: 'bold'}}>
-      <Nav.Link onClick={() => handlePageChange('About')}>About</Nav.Link>
-      <Nav.Link onClick={() => handlePageChange('Work')}>Work</Nav.Link>
-      <Nav.Link onClick={() => handlePageChange('Contact')}>Contact</Nav.Link>
-      <Nav.Link onClick={() => handlePageChange('Resume')}>Resume</Nav.Link>
+      <Nav.Link href="#about" onClick={() => handlePageChange('About')}>About</Nav.Link>
+      <Nav.Link href="#work" onClick={() => handlePageChange('Work')}>Work</Nav.Link>
+      <Nav.Link href="#contact" onClick={() => handlePageChange('Contact')}>Contact</Nav.Link>
+      <Nav.Link href="#resume" onClick={() => handlePageChange('Resume')}>Resume</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
