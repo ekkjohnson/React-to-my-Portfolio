@@ -1,6 +1,6 @@
 import React from 'react';
 import Resume from './Resume'
-import portfolioImage from '../../Projectimages/Profile Photo.JPG'
+import portfolioImage from '../../Projectimages/profilePhoto.png'
 import Button from 'react-bootstrap/Button';
 import '../../styles.css'
 
